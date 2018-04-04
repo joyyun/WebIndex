@@ -1,0 +1,77 @@
+Array函数(76)		
+差集(8)	array_diff(array1,array2,array3...)	
+	array_diff_assoc(array1,array2,array3...)	
+	array_diff_key(array1,array2,array3...)	
+	array_diff_uassoc(array1,array2,array3...,myfunction)	
+	array_diff_ukey(array1,array2,array3...,myfunction)	
+	array_udiff(array1,array2,array3...,myfunction)	
+	array_udiff_assoc(array1,array2,array3...,myfunction)	
+	array_udiff_uassoc(array1,array2,array3...,myfunction_key,mufunction_value)	
+交集(8)	array_intersect(array1,array2,array3...)	
+	array_intersect_assoc(array1,array2,array3...)	
+	array_intersect_key(array1,array2,array3...)	
+	array_intersect_uassoc(array1,array2,array3...,myfunction)	
+	array_intersect_ukey(array1,array2,array3...,myfunction)	
+	array_uintersect(array1,array2,array3...,myfunction)	
+	array_uintersect_assoc(array1,array2,array3...,myfunction)	
+	array_uintersect_uassoc(array1,array2,array3...,myfunction_key,mufunction_value)	
+数组的合并与替换(5)	array_merge(array1,array2,array3...)	
+	array_merge_recursive(array1,array2,array3...)	
+	array_replace(array1,array2,array3...)	
+	array_replace_recursive(array1,array2,array3...)	
+	array_combine(keys,values)	合二为一
+返回指定列(3)	array_column(array,column_key,index_key)	
+	array_keys(array,value,strict)	
+	array_values(array)	
+数组排序(14)	array_multisort(array1,sorting order,sorting type,array2,array3)	多个 多维
+	arsort(array,sortingtype)	
+	asort(array,sortingtype)	
+	krsort(array,sortingtype)	
+	ksort(array,sortingtype)	
+	natcasesort(array)	
+	natsort(array)	
+	rsort(array,sortingtype)	
+	sort(array,sortingtype)	
+	uasort(array,myfunction)	
+	uksort(array,myfunction)	
+	usort(array,myfunction)	
+	array_reverse(array,perserve)	翻转
+	shuffle(array)	打乱
+操作内部指针(6)	current(array)	
+	end(array)	
+	next(array)	
+	prev(array)	
+	reset(array)	
+	each(array)	
+其他(32)	array_map(myfunction,array1,array2,array3...)	作用于数组每个成员或值
+	array_walk(array,myfunction,userdata...)	
+	array_walk_recursive(array,myfunction,parameter...)	
+	array()	创建与填充
+	array_fill(index,number,value)	
+	array_fill_keys(keys,value)	
+	renge(low,high,step)	
+	array_pad(array,size,value)	
+	array_rand(array,number)	随机
+	array_chunk(array,size,preserve_key)	多维
+	array_reduce(array,myfunction,initial)	字符串
+	array_count_values(array)	统计
+	sizeof(array,mode)(count的别名)	
+	count(array,mode)	
+	array_filter(array,callbackfunction)	过滤
+	array_change_key_case(array,case)	交换
+	array_flip(array)	
+	array_key_exists(key,array)	检查 查找 选中
+	in_array(search,array,type)	
+	array_search(value,array,strict)	
+	array_slice(array,start,lenth,preserve)	
+	array_pop(array)	作用数组尾
+	array_push(array,value1,value2...)	
+	array_product(array)	和积
+	array_sum(array)	
+	array_shift(array)	作用数组头
+	array_unshift(array,value1,value2,value3...)	
+	array_splice(array,start,length,array)	粘接
+	array_unique(array)	删除相同
+	compact(var1,var2...)	封装与解封
+	extract(array,extract_rules,prefix)	
+	list(var1,var2...)	
