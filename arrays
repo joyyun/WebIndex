@@ -17,7 +17,7 @@ Array函数(76)
 	array_uintersect_uassoc(array1,array2,array3...,myfunction_key,mufunction_value)	
 数组的合并与替换(5)	array_merge(array1,array2,array3...)	
 	array_merge_recursive(array1,array2,array3...)	
-	array_replace(array1,array2,array3...)	
+	array_replace(array1,array2,array3...) 后面的数组存在array1中则替换,不存在则创建
 	array_replace_recursive(array1,array2,array3...)	
 	array_combine(keys,values)	合二为一
 返回指定列(3)	array_column(array,column_key,index_key)	
@@ -35,7 +35,7 @@ Array函数(76)
 	uasort(array,myfunction)	
 	uksort(array,myfunction)	
 	usort(array,myfunction)	
-	array_reverse(array,perserve)	翻转
+	array_reverse(array,perserve)	翻转 返回一个数组
 	shuffle(array)	打乱
 操作内部指针(6)	current(array)	
 	end(array)	
