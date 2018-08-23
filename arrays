@@ -22,7 +22,7 @@ Array函数(76)
 	array_combine(keys,values)	合二为一
 返回指定列(3)	array_column(array,column_key,index_key)	
 	array_keys(array,value,strict)	
-	array_values(array)	
+	array_values(array) 相同只返回一个
 数组排序(14)	array_multisort(array1,sorting order,sorting type,array2,array3)	多个 多维
 	arsort(array,sortingtype)	
 	asort(array,sortingtype)	
@@ -50,7 +50,7 @@ Array函数(76)
 	array_fill(index,number,value)	
 	array_fill_keys(keys,value)	
 	renge(low,high,step)	
-	array_pad(array,size,value)	
+	array_pad(array,size,value)	用指定值填充到指定长度
 	array_rand(array,number)	随机
 	array_chunk(array,size,preserve_key)	多维
 	array_reduce(array,myfunction,initial)	字符串
