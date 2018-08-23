@@ -77,7 +77,7 @@ string函数(98)
 	substr(string,start,length)	返回字符串的一部分。	子串(4)
 	substr_compare(string1,string2,startpos,length,case)	从指定的开始位置（二进制安全和选择性区分大小写）比较两个字符串。	
 	substr_count(string,substring,start,length)	计算子串在字符串中出现的次数。	
-	substr_replace(string,replacement,sstart,length)	把字符串的一部分替换为另一个字符串。	
+	substr_replace(string,replacement,start,length)	把字符串的一部分替换为另一个字符串。	
 	nl2br(string,xhtml)	在字符串中的每个新行之前插入 HTML 换行符。	标签与换行(2)
 	strip_tags(string,tags)	剥去字符串中的 HTML 和 PHP 标签。	
 其他(17)	setlocale(constant,location)	设置地区信息（地域信息）。	
