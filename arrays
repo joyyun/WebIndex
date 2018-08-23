@@ -51,7 +51,7 @@ Array函数(76)
 	array_fill_keys(keys,value)	
 	renge(low,high,step)	
 	array_pad(array,size,value)	用指定值填充到指定长度
-	array_rand(array,number)	随机
+	array_rand(array,number)	随机 返回键名
 	array_chunk(array,size,preserve_key)	多维
 	array_reduce(array,myfunction,initial)	字符串
 	array_count_values(array)	统计
