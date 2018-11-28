@@ -59,7 +59,7 @@ string函数(98)
 	str_word_count(string,return,char)	计算字符串中的单词数。	
 	count_chars(string,mode)	返回有关字符串中所用字符的信息。	
 	strlen(string)	返回字符串的长度。	
-	strcasecmp(string1,string2,length)	比较两个字符串（对大小写不敏感）。	两个字符串(15)
+	strcasecmp(string1,string2)	比较两个字符串（对大小写不敏感）。	两个字符串(15)
 	strcmp(string1,string2)	比较两个字符串（对大小写敏感）。	
 	strcoll(string1,string2)	比较两个字符串（根据本地设置）。	
 	strstr(string,search,before_search)	查找字符串在另一字符串中的第一次出现（对大小写敏感）。	
